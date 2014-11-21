@@ -29,17 +29,11 @@ function stanford_program_service_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'ds_extras-program_service_banner_image' => array(
-          'module' => 'ds_extras',
-          'delta' => 'program_service_banner_image',
+        'views-stanford_program_service-block' => array(
+          'module' => 'views',
+          'delta' => 'stanford_program_service-block',
           'region' => 'main_top',
-          'weight' => '-10',
-        ),
-        'ds_extras-program_service_text_and_links' => array(
-          'module' => 'ds_extras',
-          'delta' => 'program_service_text_and_links',
-          'region' => 'main_top',
-          'weight' => '-9',
+          'weight' => '-8',
         ),
       ),
     ),
