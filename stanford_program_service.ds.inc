@@ -17,13 +17,8 @@ function stanford_program_service_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'stanford_program_service';
   $ds_fieldsetting->view_mode = 'full';
   $ds_fieldsetting->settings = array(
-    'title' => array(
-      'weight' => '3',
-      'label' => 'hidden',
-      'format' => 'default',
-    ),
     'links' => array(
-      'weight' => '5',
+      'weight' => '2',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -51,23 +46,15 @@ function stanford_program_service_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'body',
         1 => 'field_landing_page_item',
-      ),
-      'program_service_banner_image' => array(
-        2 => 'field_s_image_info',
-      ),
-      'program_service_text_and_links' => array(
-        3 => 'title',
-        4 => 'field_s_program_service_subtitle',
-        5 => 'links',
+        2 => 'links',
+        3 => 'field_s_prog_serv_add_details',
       ),
     ),
     'fields' => array(
       'body' => 'ds_content',
       'field_landing_page_item' => 'ds_content',
-      'field_s_image_info' => 'program_service_banner_image',
-      'title' => 'program_service_text_and_links',
-      'field_s_program_service_subtitle' => 'program_service_text_and_links',
-      'links' => 'program_service_text_and_links',
+      'links' => 'ds_content',
+      'field_s_prog_serv_add_details' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
