@@ -539,16 +539,61 @@ function stanford_program_service_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-stanford_program_service-field_stanford_subsite_sub_tags'
+  $field_instances['node-stanford_program_service-field_stanford_subsite_sub_tags'] = array(
+    'bundle' => 'stanford_program_service',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Enter the value of the subsite.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 8,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_stanford_subsite_sub_tags',
+    'label' => 'Subsite Tags',
+    'required' => FALSE,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'options',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'options_select',
+      'weight' => 11,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Additional Details');
   t('Banner Image');
   t('Description');
+  t('Enter the value of the subsite.');
   t('Image Insert');
   t('Introductory text describing this Program/Service');
   t('Layout');
   t('Main image that represents this Program/Service');
   t('Program/Service Item');
+  t('Subsite Tags');
   t('Subtitle');
   t('Subtitle text for this Program/Service');
 

@@ -73,6 +73,18 @@ function stanford_program_service_strongarm() {
   $strongarm->name = 'menu_options_stanford_program_service';
   $strongarm->value = array(
     0 => 'main-menu',
+    1 => 'testing-sub-site-name',
+    2 => 'benefits--rewards',
+    3 => 'benefits--rewards',
+    4 => 'learn--grow',
+    5 => 'manage--lead',
+    6 => 'one',
+    7 => 'two',
+    8 => 'one',
+    9 => 'one',
+    10 => 'one',
+    11 => 'benefits--rewards',
+    12 => 'learn--grow',
   );
   $export['menu_options_stanford_program_service'] = $strongarm;
 
