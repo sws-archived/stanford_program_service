@@ -544,11 +544,13 @@ function stanford_program_service_field_default_field_instances() {
   t('Additional Details');
   t('Banner Image');
   t('Description');
+  t('Enter the value of the subsite.');
   t('Image Insert');
   t('Introductory text describing this Program/Service');
   t('Layout');
   t('Main image that represents this Program/Service');
   t('Program/Service Item');
+  t('Subsite Tags');
   t('Subtitle');
   t('Subtitle text for this Program/Service');
 
